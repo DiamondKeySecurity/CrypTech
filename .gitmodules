@@ -1,0 +1,15 @@
+[submodule "user/paul/libcli"]
+	path = user/paul/libcli
+	url = https://git.cryptech.is/user/paul/libcli.git
+[submodule "sw/stm32"]
+	path = sw/stm32
+	url = git@gitlab.com:DiamondKeySecurity/CrypTech/sw/stm32
+[submodule "sw/libhal"]
+	path = sw/libhal
+	url = git@gitlab.com:DiamondKeySecurity/CrypTech/sw/libhal
+[submodule "sw/thirdparty/libtfm"]
+	path = sw/thirdparty/libtfm
+	url = git@gitlab.com:DiamondKeySecurity/CrypTech/sw/thirdparty/libtfm
+[submodule "sw/pkcs11"]
+	path = sw/pkcs11
+	url = git@gitlab.com:DiamondKeySecurity/CrypTech/sw/pkcs11
