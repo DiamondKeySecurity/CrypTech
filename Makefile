@@ -4,7 +4,7 @@
 all: libtfm pkcs11 stm32
 
 libtfm:
-	${MAKE} -C thirdparty/libtfm
+	${MAKE} -C sw/thirdparty/libtfm
 
 
 pkcs11:
@@ -16,7 +16,7 @@ stm32:
 clean:
 	${MAKE} -C sw/pkcs11 clean
 	${MAKE} -C sw/stm32 clean
-	${MAKE} -C thirdparty/libtfm clean
+	${MAKE} -C sw/thirdparty/libtfm clean
 
 init:
 	git submodule update --init --recursive
