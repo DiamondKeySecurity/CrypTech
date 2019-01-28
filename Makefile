@@ -1,7 +1,11 @@
 # Copyright (c) 2018, 2019 Diamond Key Security, NFP
 # All rights reserved.
 
-all: pkcs11 stm32
+all: libtfm pkcs11 stm32
+
+libtfm:
+	${MAKE} -C thirdparty/libtfm
+
 
 pkcs11:
 	${MAKE} -C sw/pkcs11
@@ -12,6 +16,7 @@ stm32:
 clean:
 	${MAKE} -C sw/pkcs11 clean
 	${MAKE} -C sw/stm32 clean
+	${MAKE} -C thirdparty/libtfm clean
 
 init:
 	git submodule update --init --recursive
