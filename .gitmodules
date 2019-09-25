@@ -1,3 +1,15 @@
 [submodule "user/paul/libcli"]
 	path = user/paul/libcli
 	url = https://git.cryptech.is/user/paul/libcli.git
+[submodule "sw/libhal"]
+	path = sw/libhal
+	url = https://github.com/DiamondKeySecurity/libhal
+[submodule "sw/stm32"]
+	path = sw/stm32
+	url = https://github.com/DiamondKeySecurity/stm32
+[submodule "sw/pkcs11"]
+	path = sw/pkcs11
+	url = https://github.com/DiamondKeySecurity/pkcs11
+[submodule "sw/thirdparty/libtfm"]
+	path = sw/thirdparty/libtfm
+	url = https://github.com/DiamondKeySecurity/libtfm
